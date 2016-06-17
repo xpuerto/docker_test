@@ -1,5 +1,5 @@
 FROM library/debian:wheezy
-MAINTAINER Kenneth Peiruza <kenneth@floss.cat>
+MAINTAINER Xavier Puerto <xpuerto@gmail.com>
 # Minimal changes to httpd
 apt-get update && \
 apt-get -y upgrade && \

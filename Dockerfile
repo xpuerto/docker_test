@@ -1,7 +1,7 @@
 FROM library/debian:wheezy
 MAINTAINER Xavier Puerto <xpuerto@gmail.com>
 # Minimal changes to httpd
-apt-get update && \
+RUN apt-get update && \
 apt-get -y upgrade && \
 apt-get install -y funny-manpages man-db manpages && \
 apt-get clean && apt-get autoclean && \
